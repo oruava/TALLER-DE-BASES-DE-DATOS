@@ -50,7 +50,7 @@ def run_mongodb_queries():
     client, db = connect_mongodb()
     tracks = db["tracks"]
 
-    print_title("A) CONSULTAS DE EXTRACCIÓN A MONGODB")
+    print_title("A) CONSULTAS A MONGODB")
 
     # 1) Canciones más populares
     print_title("A1) Top 10 canciones más populares")
